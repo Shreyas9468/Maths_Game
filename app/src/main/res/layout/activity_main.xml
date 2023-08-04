@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/acou_08ng_220316"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#F1DE35"
+        android:elevation="4dp"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Math Game"
+            android:textColor="#140101"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="200dp"
+        android:background="#FFC107"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Addition"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFC107"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Subtraction"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttondiv"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFC107"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="Multiply"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
